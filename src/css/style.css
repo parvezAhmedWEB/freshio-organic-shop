@@ -1,0 +1,88 @@
+/* -----------------------------------------------------
+    !styles rules for section-hero start
+------------------------------------------------------*/
+.section-hero {
+  height: 100vh;
+  background-image: url("../images/image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+header {
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-left__logo {
+  width: 10rem;
+}
+.header-center-menu {
+  display: flex;
+  gap: 3.2rem;
+}
+.header-center-menu__item {
+  color: var(--cls-white);
+  font-weight: 500;
+  transition: all 0.5s;
+}
+.header-center-menu__item:hover {
+  color: #0a472e;
+}
+.header-right {
+  display: flex;
+  gap: 1.6rem;
+}
+.header-right__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--a);
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: var(--cls-white);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.header-right__icon:hover {
+  background-color: #a8b324;
+  color: var(--cls-white);
+}
+.hero {
+  height: calc(100vh - 12vh);
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 1.3rem;
+  color: var(--cls-white);
+  background-image: url("../images/banner-02.png");
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: right;
+}
+.hero-left__label {
+  font-size: 2rem;
+  font-family: var(--ff-label);
+}
+.hero-left__heading {
+  letter-spacing: -1px;
+}
+.hero-left__text {
+  margin-top: 1.2rem;
+  width: 40%;
+}
+.hero-left__btn {
+  padding: 1.8rem 3.2rem;
+  margin-top: 2.4rem;
+}
+.hero-left__btn:hover {
+  background-color: var(--cls-white);
+  color: #0a472e;
+}
+
+/* -----------------------------------------------------
+    !styles rules for section-hero end
+------------------------------------------------------*/

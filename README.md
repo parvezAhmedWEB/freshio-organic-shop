@@ -1,1 +1,1 @@
-# freshio-organic-shop
+# Freshio Organic Shop
