@@ -1,0 +1,65 @@
+/* -----------------------------------------------------
+    ?tablet 
+------------------------------------------------------*/
+@media (max-width: 768px) {
+  .container {
+    max-width: 90%;
+  }
+  /* -----------------------------------------------------
+    !styles rules for section-hero start
+------------------------------------------------------*/
+  .header-center-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #000;
+    padding: 8rem 2rem;
+  }
+  .icon-xmark {
+    color: #fff;
+    font-size: 2rem;
+    position: absolute;
+    top: 2rem;
+    left: 85%;
+    display: inline-block;
+  }
+  .hambergar-menu {
+    display: inline-block;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: var(--cls-white);
+    transition: all 0.3s;
+  }
+  .visibility {
+    z-index: -1;
+    opacity: 1;
+  }
+  .hambergar-menu i {
+    cursor: pointer;
+  }
+  .header-right__icon:nth-child(1) {
+    display: none;
+  }
+  .header-right__icon:nth-child(3) {
+    display: none;
+  }
+  .hero {
+    text-align: center;
+    background-size: 600px;
+    background-position-x: 200%;
+  }
+  .hero-left__text {
+    margin: 0 auto;
+  }
+  /* -----------------------------------------------------
+    !styles rules for section-hero end
+------------------------------------------------------*/
+}

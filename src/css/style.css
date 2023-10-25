@@ -8,6 +8,7 @@
   background-size: cover;
   background-position: center;
   overflow: hidden;
+  position: relative;
 }
 header {
   height: 12vh;
@@ -15,8 +16,14 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+.hambergar-menu {
+  display: none;
+}
 .header-left__logo {
   width: 10rem;
+}
+.icon-xmark {
+  display: none;
 }
 .header-center-menu {
   display: flex;
@@ -50,18 +57,23 @@ header {
   background-color: #a8b324;
   color: var(--cls-white);
 }
+/* ! hero */
 .hero {
   height: calc(100vh - 12vh);
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  justify-content: center;
-  align-items: center;
+
   gap: 1.3rem;
   color: var(--cls-white);
   background-image: url("../images/banner-02.png");
   background-repeat: no-repeat;
   background-size: 600px;
-  background-position: right;
+  background-position: center right;
+}
+.hero .container {
+  height: inherit;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  align-items: center;
 }
 .hero-left__label {
   font-size: 2rem;

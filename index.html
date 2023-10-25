@@ -6,6 +6,10 @@
     <!-- link stylesheet -->
     <link rel="stylesheet" href="src/css/designSystem.css" />
     <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/media-query/desktop.css" />
+    <link rel="stylesheet" href="src/css/media-query/laptop.css" />
+    <link rel="stylesheet" href="src/css/media-query/tablet.css" />
+    <link rel="stylesheet" href="src/css/media-query/mobile.css" />
     <!-- fontawesome -->
     <script
       src="https://kit.fontawesome.com/302ba740cf.js"
@@ -18,9 +22,13 @@
       !section-hero start
     ------------------------------------------------>
     <div class="section-hero">
+      <!-- !header start -->
       <div class="container">
-        <!-- !header start -->
-        <header class="">
+        <header>
+          <!-- !hambergar-menu -->
+          <div class="hambergar-menu">
+            <i class="fa-solid fa-bars"></i>
+          </div>
           <div class="header-left">
             <img
               src="src/images/logo-light.svg"
@@ -28,14 +36,15 @@
               class="header-left__logo"
             />
           </div>
-          <div class="header-center">
-            <ul class="header-center-menu">
-              <li><a class="header-center-menu__item" href="#">Home</a></li>
-              <li><a class="header-center-menu__item" href="#">Shop</a></li>
-              <li><a class="header-center-menu__item" href="#">Blog</a></li>
-              <li><a class="header-center-menu__item" href="#">About Us</a></li>
-            </ul>
-          </div>
+          <ul class="header-center-menu visibility">
+            <div class="icon-xmark">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+            <li><a class="header-center-menu__item" href="#">Home</a></li>
+            <li><a class="header-center-menu__item" href="#">Shop</a></li>
+            <li><a class="header-center-menu__item" href="#">Blog</a></li>
+            <li><a class="header-center-menu__item" href="#">About Us</a></li>
+          </ul>
           <div class="header-right">
             <span class="header-right__icon"
               ><i class="fa-solid fa-magnifying-glass"></i
@@ -48,9 +57,11 @@
             ></span>
           </div>
         </header>
-        <!-- !header end -->
-        <!-- !hero start -->
-        <div class="hero">
+      </div>
+      <!-- !header end -->
+      <!-- !hero start -->
+      <div class="hero">
+        <div class="container">
           <div class="hero-left">
             <h5 class="hero-left__label">Taste of nature</h5>
             <h1 class="hero-left__heading">Eat clean & green.</h1>
@@ -64,8 +75,8 @@
             </button>
           </div>
         </div>
-        <!-- !hero end -->
       </div>
+      <!-- !hero end -->
     </div>
     <!----------------------------------------------
       !section-hero end
