@@ -114,7 +114,7 @@ header {
   grid-column: span 3;
   background-image: url("../images/H14-banner_03.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 .shop-items-2 {
   grid-column: span 2;
@@ -142,11 +142,17 @@ header {
 .shop-items-6 .shop-item-body:hover {
   border: 2px solid #a8b324;
 }
+.shop-items-2 .shop-item-body span:nth-child(1) {
+  margin-bottom: 1rem;
+}
+.shop-items-2 .shop-item-body span:last-child {
+  margin-top: 1.6rem;
+}
 .shop-items-3 {
   grid-column: span 4;
   background-image: url("../images/H14-banner_04.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 .shop-items-4 {
   grid-column: span 4;
@@ -159,7 +165,7 @@ header {
   grid-column: span 3;
   background-image: url("../images/H14-banner_06.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 .shop-items-6 {
   grid-column: span 2;

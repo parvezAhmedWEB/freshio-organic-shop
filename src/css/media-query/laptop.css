@@ -14,4 +14,32 @@
   /* -----------------------------------------------------
     !styles rules for section-hero end
 ------------------------------------------------------*/
+  /* -----------------------------------------------------
+    !styles rules for section-shop-items start
+------------------------------------------------------*/
+  .shop-items {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 270px);
+  }
+  .shop-items-1 {
+    grid-column: span 1;
+  }
+  .shop-items-2 {
+    grid-column: span 1;
+  }
+  .shop-items-3 {
+    grid-column: span 2;
+  }
+  .shop-items-4 {
+    grid-column: span 1;
+  }
+  .shop-items-5 {
+    grid-column: span 1;
+  }
+  .shop-items-6 {
+    grid-column: span 2;
+  }
+  /* -----------------------------------------------------
+    !styles rules for section-shop-items end
+------------------------------------------------------*/
 }

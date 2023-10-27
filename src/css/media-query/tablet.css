@@ -62,4 +62,22 @@
   /* -----------------------------------------------------
     !styles rules for section-hero end
 ------------------------------------------------------*/
+  /* -----------------------------------------------------
+    !styles rules for section-shop-items start
+------------------------------------------------------*/
+  .shop-items {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 270px);
+  }
+
+  .shop-items-3 {
+    grid-column: span 1;
+  }
+
+  .shop-items-6 {
+    grid-column: span 1;
+  }
+  /* -----------------------------------------------------
+  !styles rules for section-shop-items end
+------------------------------------------------------*/
 }
