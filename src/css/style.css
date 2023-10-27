@@ -98,3 +98,116 @@ header {
 /* -----------------------------------------------------
     !styles rules for section-hero end
 ------------------------------------------------------*/
+/* -----------------------------------------------------
+    !styles rules for section-shop-items start
+------------------------------------------------------*/
+.section-shop-items {
+  margin: 9rem 0;
+}
+.shop-items {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(2, 270px);
+  gap: 1rem;
+}
+.shop-items-1 {
+  grid-column: span 3;
+  background-image: url("../images/H14-banner_03.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.shop-items-2 {
+  grid-column: span 2;
+  background-color: #fbe8c9;
+  background-repeat: no-repeat;
+}
+.shop-items-2,
+.shop-items-6 {
+  padding: 1.5rem !important;
+  height: 100%;
+  text-align: center;
+}
+.shop-items-2 .shop-item-body,
+.shop-items-6 .shop-item-body {
+  height: 100%;
+  border: 2px solid #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.8rem;
+  transition: all 0.5s;
+}
+.shop-items-2 .shop-item-body:hover,
+.shop-items-6 .shop-item-body:hover {
+  border: 2px solid #a8b324;
+}
+.shop-items-3 {
+  grid-column: span 4;
+  background-image: url("../images/H14-banner_04.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.shop-items-4 {
+  grid-column: span 4;
+  background-image: url("../images/h3_banner-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.shop-items-5 {
+  grid-column: span 3;
+  background-image: url("../images/H14-banner_06.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.shop-items-6 {
+  grid-column: span 2;
+  background-color: #e7f6d4;
+}
+[class^="shop-items-"] {
+  padding: 4.5rem;
+  border-radius: 0.8rem;
+  position: relative;
+  transition: 0.5s;
+  cursor: pointer;
+}
+[class^="shop-items-"]:hover .btn-shop-item {
+  bottom: 4.5rem;
+}
+.shop-items-1 h5,
+.shop-items-3 h4 {
+  color: #ff3b22 !important;
+}
+.shop-items-1 h5,
+.shop-items-3 h5,
+.shop-items-5 h5,
+.shop-items-6 h5 {
+  margin-bottom: 1rem;
+}
+.shop-items-4 h4,
+.shop-items-5 h4,
+.shop-items-6 h4 {
+  margin-bottom: 1rem;
+}
+.shop-item-body h4 {
+  color: #0a472e;
+}
+.shop-item-body h5 {
+  color: #a8b324;
+}
+.shop-item-body span {
+  color: #555;
+}
+.shop-item-body p {
+  color: #0a472e;
+}
+.btn-shop-item {
+  padding: 1.2rem 2.5rem;
+  position: absolute;
+  left: 4.5rem;
+  bottom: 2.8rem;
+}
+/* -----------------------------------------------------
+    !styles rules for section-shop-items end
+------------------------------------------------------*/

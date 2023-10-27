@@ -7,14 +7,13 @@
   /* !font size */
   /* 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
   --h1: 6.2rem;
-  --h2: ;
-  --h3: ;
-  --h4: ;
-  --h5: ;
-  --h6: ;
+  --h2: 3.6rem;
+  --h3: 3rem;
+  --h4: 2.4rem;
+  --h5: 2rem;
+  --h6: 1.8rem;
   --text: 1.6rem;
-  --label: ;
-  --a: 1.6rem;
+  --span: 1.2rem;
   /* !colors */
   /* 
   #0a472e
@@ -48,8 +47,21 @@ h1 {
   font-size: var(--h1);
   font-weight: 900;
 }
+h3 {
+  font-size: var(--h3);
+}
+h4 {
+  font-size: var(--h4);
+}
+h5 {
+  font-size: var(--h5);
+  font-family: var(--ff-label);
+}
 p {
   font-size: var(--text);
+}
+span {
+  font-size: var(--span);
 }
 img,
 svg {
@@ -58,7 +70,7 @@ svg {
 }
 a {
   text-decoration: none;
-  font-size: var(--a);
+  font-size: var(--text);
 }
 li {
   list-style: none;
