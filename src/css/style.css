@@ -217,3 +217,52 @@ header {
 /* -----------------------------------------------------
     !styles rules for section-shop-items end
 ------------------------------------------------------*/
+/* -----------------------------------------------------
+    !styles rules for section-best-products start
+------------------------------------------------------*/
+.section-best-products {
+  margin: 9rem 0;
+}
+
+.best-products-header h2 {
+  color: #0a472e;
+}
+.best-products-content {
+  margin-top: 6rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+}
+[class^="product-"] {
+  text-align: center;
+  overflow: hidden;
+  padding: 1.5rem;
+}
+[class^="product-"]:hover .product-body h4 {
+  color: #0a472e;
+}
+.product__img {
+  transform: scale(1);
+  transition: all 0.5s;
+}
+.product__img:hover {
+  transform: scale(1.1);
+}
+.product-body p {
+  margin-top: 1rem;
+}
+.product-body h4 {
+  display: inline-block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #f3e3dc;
+  padding-bottom: 1.2rem;
+  color: #a8b324;
+  transition: all 0.5s;
+}
+.btn-procuts {
+  padding: 1rem 2.5rem;
+}
+/* -----------------------------------------------------
+    !styles rules for section-best-products end
+------------------------------------------------------*/
