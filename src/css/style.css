@@ -275,3 +275,69 @@ header {
 /* -----------------------------------------------------
     !styles rules for section-best-products end
 ------------------------------------------------------*/
+/* -----------------------------------------------------
+    !styles rules for section-good-natural start
+------------------------------------------------------*/
+.section-good-natural {
+  padding: 6rem 0;
+  background-image: url("../images/H14-bg_02.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-x: 60%;
+  background-position-y: 20%;
+}
+.section-good-natural .container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.good-natural-content {
+  padding: 1rem;
+  width: 40%;
+}
+.good-natural-body {
+  color: #555;
+}
+.good-natural-body h5 {
+  color: #a8b324;
+  margin-bottom: 1rem;
+}
+.good-natural-body h2 {
+  color: #0a472e;
+  margin-bottom: 2rem;
+}
+[class^="good-natural-cart-"] {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.natural-cart__img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+.natural-cart-right h4 {
+  color: #a8b324;
+}
+.good-natural-cart-footer {
+  border-top: 1px solid #e3e9e9;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+.good-natural-cart-footer p span {
+  font-size: var(--h6);
+  color: #a8b324;
+  font-weight: 600;
+}
+.naturel-btn {
+  margin-top: 1rem;
+  padding: 1.2rem 2.5rem;
+  margin-bottom: 0;
+}
+
+/* -----------------------------------------------------
+    !styles rules for section-good-natural end
+------------------------------------------------------*/
