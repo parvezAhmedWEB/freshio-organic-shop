@@ -60,7 +60,9 @@ h5 {
   font-size: var(--h5);
   font-family: var(--ff-label);
 }
-
+h6 {
+  font-size: var(--h6);
+}
 p {
   font-size: var(--text);
 }
