@@ -263,6 +263,15 @@ header {
 .btn-procuts {
   padding: 1rem 2.5rem;
 }
+.best-products-footer {
+  text-align: center;
+  margin-top: 6rem;
+}
+.best-products-footer span:last-child {
+  font-weight: 600;
+  color: #a8b324;
+  cursor: pointer;
+}
 /* -----------------------------------------------------
     !styles rules for section-best-products end
 ------------------------------------------------------*/
