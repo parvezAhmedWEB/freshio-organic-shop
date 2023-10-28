@@ -90,4 +90,23 @@
   /* -----------------------------------------------------
   !styles rules for section-best-products end
 ------------------------------------------------------*/
+  /* -----------------------------------------------------
+    !styles rules for section-good-natural start
+------------------------------------------------------*/
+  .section-good-natural {
+    background-position-x: 70%;
+    background-position-y: 20%;
+  }
+  .section-good-natural .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .good-natural-content {
+    padding: 1rem;
+    width: 80%;
+  }
+  /* -----------------------------------------------------
+  !styles rules for section-good-natural end
+------------------------------------------------------*/
 }
