@@ -430,3 +430,38 @@ header {
 /* -----------------------------------------------------
     !styles rules for section-best-top-products end
 ------------------------------------------------------*/
+/* -----------------------------------------------------
+    !styles rules for section-reviews start
+------------------------------------------------------*/
+.section-reviews {
+  height: 60vh;
+  background-image: url("../images/H14-bg_04.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.review-content {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/H14-bg_03.png");
+  background-repeat: no-repeat;
+  background-color: #0a472e;
+  color: #a8b324;
+}
+.review-content h4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+.review-content span {
+  margin-top: 1rem;
+  border-bottom: 1px solid #e3e9e9;
+  font-weight: 600;
+}
+/* -----------------------------------------------------
+    !styles rules for section-reviews end
+------------------------------------------------------*/

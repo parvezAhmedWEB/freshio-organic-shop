@@ -107,7 +107,9 @@ li {
 .hide {
   display: none;
 }
-
+.h-inharit {
+  height: inherit;
+}
 /* -----------------------------------------------------
     !styles rules for common class end
 ------------------------------------------------------*/
