@@ -109,4 +109,23 @@
   /* -----------------------------------------------------
   !styles rules for section-good-natural end
 ------------------------------------------------------*/
+  /* -----------------------------------------------------
+    !styles rules for section-best-top-products end
+------------------------------------------------------*/
+  .best-top-products {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .best,
+  .top {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+  .best-right {
+    background-size: cover;
+    height: 100%;
+  }
+  /* -----------------------------------------------------
+  !styles rules for section-best-top-products end
+------------------------------------------------------*/
 }

@@ -56,4 +56,19 @@
   /* -----------------------------------------------------
     !styles rules for section-good-natural end
 ------------------------------------------------------*/
+  /* -----------------------------------------------------
+    !styles rules for section-best-top-products end
+------------------------------------------------------*/
+  .best-top-products {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .best,
+  .top {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 2rem;
+  }
+  /* -----------------------------------------------------
+    !styles rules for section-best-top-products end
+------------------------------------------------------*/
 }
