@@ -546,3 +546,31 @@ header {
 /* -----------------------------------------------------
     !styles rules for section-blogs end
 ------------------------------------------------------*/
+/* -----------------------------------------------------
+    !styles rules for section-brand start
+------------------------------------------------------*/
+.section-brand .container {
+  border-top: 1px solid #e3e9e9;
+  padding: 6rem 0;
+}
+.brand-content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 2rem;
+}
+.brand__img {
+  display: block;
+  width: 10rem;
+  opacity: 0.4;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.brand__img:hover {
+  opacity: 1;
+}
+
+/* -----------------------------------------------------
+    !styles rules for section-brand end
+------------------------------------------------------*/
