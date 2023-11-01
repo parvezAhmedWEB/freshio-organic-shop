@@ -574,3 +574,36 @@ header {
 /* -----------------------------------------------------
     !styles rules for section-brand end
 ------------------------------------------------------*/
+/* -----------------------------------------------------
+    !styles rules for footer start
+------------------------------------------------------*/
+.footer-content-1 {
+  background-color: #13472e;
+}
+.services {
+  padding: 3rem 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  gap: 2rem;
+}
+.service-box {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+.service__img {
+  width: 5rem;
+}
+.service-text h6 {
+  color: #a8b324;
+  margin-bottom: 0.4rem;
+}
+.service-text span {
+  color: #e3e9e9;
+}
+/* -----------------------------------------------------
+    !styles rules for footer end
+------------------------------------------------------*/
