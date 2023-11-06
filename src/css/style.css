@@ -631,7 +631,9 @@ header {
   margin-bottom: 1.8rem;
 }
 .footer-text,
-.footer-list {
+.footer-list,
+.copy-right-text,
+.policytext {
   font-size: var(--span);
   color: #909896;
 }
@@ -680,7 +682,16 @@ header {
   cursor: pointer;
   transition: all 0.5s;
 }
-
+.footer-content-3 {
+  background-color: #083925;
+}
+.footer-content-3 .container {
+  border-top: 1px solid #a8b324;
+  padding: 4rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 /* -----------------------------------------------------
     !styles rules for footer end
 ------------------------------------------------------*/

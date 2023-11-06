@@ -80,6 +80,10 @@
   .footer-content-2 .container {
     grid-template-columns: repeat(10, 1fr);
   }
+  .footer-content-3 .container {
+    flex-direction: column;
+    gap: 2rem;
+  }
   /* -----------------------------------------------------
     !styles rules for footer end
 ------------------------------------------------------*/
