@@ -604,6 +604,83 @@ header {
 .service-text span {
   color: #e3e9e9;
 }
+.footer-content-2 {
+  background-color: #083925;
+  color: #fff;
+  padding: 9rem 0;
+}
+.footer-content-2 .container {
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  justify-content: space-between;
+  gap: 1.4rem;
+}
+.footer-content-2-box-1 {
+  grid-column: span 4;
+}
+.footer-content-2-box-2,
+.footer-content-2-box-3,
+.footer-content-2-box-4 {
+  grid-column: span 2;
+}
+.footer-content-2-box-5 {
+  grid-column: span 3;
+}
+.footer-heading {
+  font-weight: 600;
+  margin-bottom: 1.8rem;
+}
+.footer-text,
+.footer-list {
+  font-size: var(--span);
+  color: #909896;
+}
+.footer-content-2-btn-img {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+.footer-content-2-btn-img img {
+  width: 12rem;
+}
+.footer-content-2-box-1 span {
+  display: block;
+  width: 75%;
+}
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer-list li {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.footer-list li:hover,
+.footer-content-2-media-icom i:hover {
+  color: #a8b324;
+}
+.footer-content-2-box-5 span {
+  display: block;
+  margin-bottom: 2rem;
+}
+.footer-content-2-box-5 input {
+  display: block;
+  border: none;
+  border-radius: 3rem;
+  padding: 1.4rem;
+}
+.footer-content-2-media-icom {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+.footer-content-2-media-icom i {
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
 /* -----------------------------------------------------
     !styles rules for footer end
 ------------------------------------------------------*/
