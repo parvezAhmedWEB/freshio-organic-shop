@@ -72,10 +72,13 @@
     !styles rules for section-brand end
 ------------------------------------------------------*/
   /* -----------------------------------------------------
-    !styles rules for footer end
+    !styles rules for footer start
 ------------------------------------------------------*/
   .services {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-content-2 .container {
+    grid-template-columns: repeat(10, 1fr);
   }
   /* -----------------------------------------------------
     !styles rules for footer end

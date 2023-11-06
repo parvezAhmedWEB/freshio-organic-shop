@@ -138,4 +138,24 @@
   /* -----------------------------------------------------
     !styles rules for section-reviews end
 ------------------------------------------------------*/
+  /* -----------------------------------------------------
+    !styles rules for footer start
+------------------------------------------------------*/
+  .footer-content-2 .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer-content-2-box-1 {
+    grid-column: span 3;
+  }
+  .footer-content-2-box-2,
+  .footer-content-2-box-3,
+  .footer-content-2-box-4 {
+    grid-column: span 1;
+  }
+  .footer-content-2-box-5 {
+    grid-column: span 3;
+  }
+  /* -----------------------------------------------------
+  !styles rules for footer end
+------------------------------------------------------*/
 }
